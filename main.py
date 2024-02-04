@@ -38,6 +38,7 @@ except Exception as e:
     logger.exception(e)
     raise e
 
+#Time and effort machine economy
 """STAGE_NAME = 'Model Trainer Stage'
 
 try:
@@ -47,7 +48,7 @@ try:
     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nX=============X")
 except Exception as e:
     logger.exception(e)
-    raise e"""
+    raise e
 
 STAGE_NAME = 'Model Evaluation Stage'
 
@@ -58,4 +59,4 @@ try:
     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nX=============X")
 except Exception as e:
     logger.exception(e)
-    raise e
+    raise e"""
