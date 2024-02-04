@@ -18,7 +18,7 @@ class DataTransformation:
         return {
             'input_ids': input_encodings['input_ids'],
             'attention_mask': input_encodings['attention_mask'],
-            'target_ids': target_encodings['input_ids']
+            'labels': target_encodings['input_ids']
         }
         
     
